@@ -1,0 +1,14 @@
+
+<!-- This is your index file (Clearly) just replace this with your main page. -->
+
+<!DOCTYPE html>
+<html>
+    <title>Web Launch</title>
+    <h1>Web Launch</h1>
+    <p>Your site is live at: <span id="url">null</span></p>
+    <script>
+        const url = window.location.href;
+        const element = document.getElementById('url');
+        element.textContent = url;
+    </script>
+</html>
